@@ -7,8 +7,26 @@ body{
 
 h2{
     background-color: #B3A742;
+    background: -moz-linear-gradient(top, #9C8F67, #C7BE9B);
+    background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B);
+    border-radius: 5px;
+    border: 1px solid black;
     padding: 5px;
     color: #FFFFFF;
+}
+
+figure{
+    background-color: white;
+    width: 800px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Comics Sans MS', cursive;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.7);
+}
+
+figure:hover{
+    transform:rotate(-2deg);
 }
 
 #tb-nutrientes{
@@ -42,4 +60,13 @@ nav ul li{
 nav{
     padding-left: 5px;
     text-align: center;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
